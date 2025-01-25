@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Arrange heading and clock vertically */
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(130deg, #eb5008, #0980a1);
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 80px;
+    color: #4c138580;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    font-size: 90px;
+  }
+  
+  h1:hover {
+    border-bottom: 3px solid #860843; /* Border appears on hover */
+    padding-bottom: 10px; 
+    background-color: #121112;
+    color: #ebe4e4;
+    
+    
+  
+  }
+  
+  .clock {
+    font-size: 8rem;
+    color: #0f0c0c;
+    padding: 40px 60px;
+    border-radius: 90px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    
+
+  }
+  .clock:hover {
+  background: linear-gradient(135deg, #0a792b, #d3ab0a);
+  color: rgb(232, 226, 226);
+  border: 50px;
+  
+  
+  
+
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem; /* Smaller font size for small devices */
+    }
+  
+    .clock {
+      font-size: 3rem; /* Smaller font size for small devices */
+      padding: 15px 30px;
+    }
+  }
